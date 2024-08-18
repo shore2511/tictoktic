@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/btm11"
+            android:onClick="Check"/>
+
+        <Button
+            android:layout_marginLeft="11dp"
+            android:id="@+id/btm12"
+            android:onClick="Check"/>
+
+        <Button
+            android:id="@+id/btm21"
+            android:onClick="Check"/>
+        <Button
+            android:layout_marginLeft="11dp"
+            android:id="@+id/btm22"
+            android:onClick="Check"/>
+        <Button
+            android:layout_marginLeft="11dp"
+            android:id="@+id/btm23"
+            android:onClick="Check"/>
+        <Button
+            android:id="@+id/btm31"
+            android:onClick="Check"/>
+        <Button
+            android:layout_marginLeft="11dp"
+            android:id="@+id/btm32"
+            android:onClick="Check"/>
+        <Button
+            android:layout_marginLeft="11dp"
+            android:id="@+id/btm33"
+            android:onClick="Check"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="8"
+            android:layout_weight="1"
+            android:text="cross Word Games" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btm13"
+        android:layout_marginLeft="11dp"
+        android:onClick="Check" />
+
+</LinearLayout>
